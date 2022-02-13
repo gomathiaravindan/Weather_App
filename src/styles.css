@@ -1,0 +1,46 @@
+.container {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  border-radius: 40px;
+  position: relative;
+  height: 100vh;
+  margin: auto;
+  background-size: 100%;
+}
+
+.container .multicolortext {
+  background-image: linear-gradient(to left, #0077b6, #03045e);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.container h1 {
+  color: rgb(0, 0, 0);
+}
+.container .col-md-4 {
+  color: white;
+  background: url("weather_bg.jpg");
+  box-shadow: outset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  position: absolute;
+  border-radius: 40px;
+}
+.container .col-md-4 h1 {
+  color: white;
+}
+
+.container input[type="text"] {
+  margin: 10px;
+  padding: 2px;
+  border-radius: 50px;
+  border: none;
+  background: transparent;
+  box-shadow: 0px 2px 2px 2px #0077b6, 0px -2px 2px #03045e;
+  background-color: white;
+  color: rgb(0, 0, 0);
+}
+.container input[type="text"]:hover {
+  border: none;
+  background: transparent;
+  color: white;
+}
